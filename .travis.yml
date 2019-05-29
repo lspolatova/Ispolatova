@@ -1,2 +1,11 @@
-language: c++
+language: сpp
+os:
+- linux
+- osx
+
+compiler:
+- gcc
+- clang
+
+script: make main
 
